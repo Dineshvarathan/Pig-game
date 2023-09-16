@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  background-image: linear-gradient(rgb(235, 29, 74), rgb(241, 60, 151));
+  background-color: lightpink;
+}
+.section {
+  height: 50rem;
+  width: 70rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  box-shadow: 2px 5px 20px rgb(170, 162, 162);
+}
+.section0 {
+  background-color: rgba(245, 245, 220, 0.438);
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.section1 {
+  background-color: rgba(245, 245, 220, 0.438);
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sec {
+  transition: all 0.5s;
+  background-color: rgba(245, 245, 220, 0.774);
+}
+/*  */
+.players {
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+}
+.pla1 {
+  left: 15%;
+}
+.pla2 {
+  right: 15%;
+}
+b {
+  margin-left: 4rem;
+  font-size: 2rem;
+}
+.scores {
+  display: inline-block;
+  position: absolute;
+  bottom: 10%;
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
+  background-color: rgba(240, 80, 107, 0.808);
+}
+.sco1 {
+  left: 15%;
+}
+.sco2 {
+  right: 15%;
+}
+
+.b2 {
+  margin-left: 2.7rem;
+  font-size: 2rem;
+}
+.newgame-btn {
+  position: absolute;
+  left: 43%;
+  top: 10%;
+}
+.rolldice-btn {
+  position: absolute;
+  left: 43%;
+  top: 60%;
+}
+.hold-btn {
+  position: absolute;
+  left: 45%;
+  bottom: 20%;
+}
+.btn {
+  padding: 0.7rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 1px 2px 5px rgb(148, 143, 143);
+}
+.btn:active {
+  transform: translateY(3px);
+  box-shadow: 1px 2px 5px rgb(148, 143, 143);
+}
+.dicesize {
+  height: 7rem;
+  width: 7rem;
+}
+.dicepic {
+  position: absolute;
+  top: 37%;
+  left: 47%;
+}
+.hi {
+  display: none;
+}
+.winner {
+  background-color: rgba(52, 48, 245, 0.829);
+}
